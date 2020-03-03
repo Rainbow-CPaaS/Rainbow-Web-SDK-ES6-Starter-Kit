@@ -1,0 +1,16 @@
+{
+  "name": "rainbow-web-sdk-hello-world",
+  "version": "1.0.0",
+  "description": "Rainbow Web SDK starter kit",
+  "main": "index.js",
+  "scripts": {
+    "serve": "http-server public/ -p 8887",
+	"build": "cp ./node_modules/rainbow-web-sdk/lib/* ./public"
+  },
+  "author": "ALE Enterprise",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.12.1",
+    "rainbow-web-sdk": "^1.67.0"
+  }
+}
