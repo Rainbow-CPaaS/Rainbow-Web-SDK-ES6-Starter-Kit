@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "serve": "http-server public/ -p 8887",
-	"build": "cp ./node_modules/rainbow-web-sdk/lib/* ./public"
+    "build": "cp ./node_modules/rainbow-web-sdk/src/* ./public"
   },
   "author": "ALE Enterprise",
   "license": "ISC",
   "devDependencies": {
     "http-server": "^0.12.1",
-    "rainbow-web-sdk": "^1.68.0"
+    "live-server": "^1.2.1",
+    "rainbow-web-sdk": "^1.68.0-beta.2"
   }
 }
